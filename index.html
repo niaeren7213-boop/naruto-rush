@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111018">
+<title>ناروتو راش | Naruto Rush</title>
+<style>
+:root{--bg:#100f17;--panel:#1b1925;--orange:#ff7a18;--gold:#ffc15a;--text:#f7f4ff;--muted:#b7b2c8;--line:#353044}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#292033 0,#100f17 55%);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.8}
+a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+header{position:sticky;top:0;z-index:5;background:#100f17eF;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:14px 0}.brand{font-weight:900;font-size:1.2rem}.brand span{color:var(--orange)}.navlinks{display:flex;gap:18px;color:var(--muted);font-size:.9rem}.navlinks a:hover{color:var(--gold)}
+.hero{padding:64px 0 42px;display:grid;grid-template-columns:1.15fr .85fr;gap:26px;align-items:center}
+.tag{display:inline-block;border:1px solid #70401f;background:#321e19;color:#ffb36d;padding:5px 12px;border-radius:99px;font-size:.82rem}
+h1{font-size:clamp(2.2rem,6vw,4rem);line-height:1.2;margin:16px 0}h1 span{color:var(--orange)}.lead{color:var(--muted);max-width:580px}
+.btn{display:inline-block;padding:11px 18px;border-radius:12px;font-weight:bold;margin:8px 6px 0 0;cursor:pointer;border:0;font-family:inherit}.primary{background:linear-gradient(135deg,var(--orange),#ffb33f);color:#211006}.secondary{border:1px solid var(--line);background:#201d2b;color:var(--text)}
+.hero-art{min-height:285px;border:1px solid #4b2e35;border-radius:24px;background:linear-gradient(145deg,#322034,#1b1727 60%,#3a2118);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.sun{width:180px;height:180px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ffdd8c,#ff7a18 65%,#b72e1a);box-shadow:0 0 80px #ff7a1840;display:grid;place-items:center;font-size:4rem}
+.shuriken{position:absolute;font-size:3rem;color:#f6d4b0;opacity:.65}.s1{top:18px;right:28px}.s2{bottom:20px;left:28px}.caption{position:absolute;bottom:12px;right:16px;color:#e6d8e9;font-size:.8rem}
+section{padding:28px 0 42px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:10px;margin-bottom:18px}.section-head h2{margin:0;font-size:1.55rem}.section-head p{margin:0;color:var(--muted);font-size:.88rem}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(160deg,#211e2d,#191722);border:1px solid var(--line);border-radius:18px;padding:20px}.icon{font-size:1.8rem}.card h3{margin:7px 0}.card p{color:var(--muted);font-size:.92rem;margin:0 0 14px}.status{font-size:.78rem;color:#ffca80;background:#39291c;border-radius:99px;padding:4px 9px;display:inline-block}
+.notice{border:1px solid #4b3b27;background:#241f1a;border-radius:16px;padding:16px;color:#e8d8bd;margin-top:16px;font-size:.9rem}
+.comments{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{width:100%;padding:12px;border-radius:10px;border:1px solid var(--line);background:#111019;color:var(--text);font:inherit;margin:6px 0 12px}textarea.field{min-height:100px;resize:vertical}
+.comment-list{display:grid;gap:10px}.comment{padding:12px;border:1px solid var(--line);border-radius:12px;background:#191722}.comment small{color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-size:.85rem;text-align:center}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:40px}.hero-art{min-height:230px}.grid{grid-template-columns:1fr}.comments{grid-template-columns:1fr}.navlinks{gap:9px;font-size:.78rem}.brand{font-size:1rem}.nav{flex-wrap:wrap}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#"><span>🍥</span> ناروتو <span>راش</span></a>
+<nav class="navlinks"><a href="#services">بخش‌ها</a><a href="#about">درباره</a><a href="#comments">نظرات</a></nav>
+</div></header>
+<main class="wrap">
+<div class="hero">
+<div>
+<span class="tag">🍃 دنیای نینجاها</span>
+<h1>به <span>ناروتو راش</span><br>خوش اومدی!</h1>
+<p class="lead">پاتوق طرفدارهای ناروتو؛ اینجا می‌تونی بخش‌های مختلف سایت رو ببینی و از خبرهای تازه، ادیت‌ها و آیتم‌های ویژه باخبر بشی.</p>
+<a class="btn primary" href="#services">بزن بریم! ⚡</a>
+<a class="btn secondary" href="#about">درباره سایت</a>
+</div>
+<div class="hero-art" aria-label="طرح گرافیکی الهام‌گرفته از دنیای نینجاها">
+<div class="shuriken s1">✥</div><div class="shuriken s2">✦</div><div class="sun">🍥</div><div class="caption">NARUTO RUSH • 忍</div>
+</div>
+</div>
+<section id="services">
+<div class="section-head"><h2>🍜 بخش‌های ناروتو راش</h2><p>به‌زودی بخش‌های بیشتری اضافه می‌شن</p></div>
+<div class="grid">
+<article class="card"><div class="icon">🪙</div><h3>فروشگاه سکه</h3><p>اطلاعات آیتم‌ها و سکه‌ها رو اینجا قرار بده. خرید آنلاین هنوز فعال نشده.</p><span class="status">به‌زودی</span></article>
+<article class="card"><div class="icon">🎬</div><h3>ادیت‌های ناروتو</h3><p>جای مخصوص کلیپ‌ها، ادیت‌ها و لحظه‌های خفن دنیای ناروتو.</p><span class="status">به‌زودی</span></article>
+<article class="card"><div class="icon">📣</div><h3>تبلیغات و همکاری</h3><p>برای معرفی کانال یا همکاری، اطلاعات تماس و قوانین رو اینجا اضافه کن.</p><span class="status">به‌زودی</span></article>
+</div>
+<div class="notice">⚠️ این نسخه یک قالب نمایشی است. پرداخت، خرید سکه و ارسال نظر به سرور وصل نیست؛ برای فعال‌کردن این امکانات باید بک‌اند و تنظیمات امن اضافه شوند.</div>
+</section>
+<section id="about">
+<div class="section-head"><h2>🍃 درباره ناروتو راش</h2></div>
+<div class="card"><p style="margin:0;color:var(--muted)">ناروتو راش یک سایت طرفداری با حال‌وهوای ناروتو است. این صفحه با طراحی واکنش‌گرا ساخته شده تا روی گوشی و کامپیوتر مرتب نمایش داده شود. متن‌ها و بخش‌ها را می‌توانی به‌دلخواه تغییر بدهی.</p></div>
+</section>
+<section id="comments">
+<div class="section-head"><h2>⭐ نظرات کاربران</h2><p>نظرها فقط در همین مرورگر ذخیره می‌شن</p></div>
+<div class="comments">
+<form class="card" id="commentForm"><label for="name">اسم یا لقب</label><input class="field" id="name" maxlength="35" placeholder="مثلاً نینجای برگ" required><label for="message">نظرت</label><textarea class="field" id="message" maxlength="300" placeholder="نظرت رو بنویس..." required></textarea><button class="btn primary" type="submit">ثبت نظر</button></form>
+<div class="card"><h3 style="margin-top:0">پیام‌ها</h3><div class="comment-list" id="commentList"><p style="color:var(--muted);margin:0">هنوز نظری ثبت نشده؛ اولین نفر باش!</p></div></div>
+</div>
+</section>
+</main>
+<footer><div class="wrap">🍥 ناروتو راش • ساخته‌شده با عشق به دنیای انیمه</div></footer>
+<script>
+const form=document.getElementById('commentForm'), list=document.getElementById('commentList');
+function loadComments(){let items=[];try{items=JSON.parse(localStorage.getItem('narutoRushComments')||'[]')}catch(e){}list.innerHTML='';if(!items.length){list.textContent='هنوز نظری ثبت نشده؛ اولین نفر باش!';list.style.color='#b7b2c8';return}list.style.color='';items.slice().reverse().forEach(c=>{const box=document.createElement('div');box.className='comment';const title=document.createElement('strong');title.textContent=c.name;const body=document.createElement('p');body.textContent=c.message;body.style.margin='6px 0 0';box.append(title,body);list.append(box)})}
+form.addEventListener('submit',e=>{e.preventDefault();const name=document.getElementById('name').value.trim(),message=document.getElementById('message').value.trim();if(!name||!message)return;let items=[];try{items=JSON.parse(localStorage.getItem('narutoRushComments')||'[]')}catch(e){}items.push({name,message});localStorage.setItem('narutoRushComments',JSON.stringify(items.slice(-30)));form.reset();loadComments()});loadComments();
+</script>
+</body></html>
